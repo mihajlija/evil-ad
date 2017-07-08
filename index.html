@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Evil Ad</title>
+    <meta name="description" content="Iframes from hell">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+      <div class="wrapper">
+        <iframe class="ad" scrolling="no" sandbox="allow-scripts" src="ad.html"></iframe>
+      </div>
+      <header class="mw9 center tc">
+      <img class="" src="evil_ad_hero@1x.png"/>
+      </header>
+        <main class="mw8 center ph3 ph4-ns">
+            <article class="">
+              <header>
+                <h1 class="f1 f-subheadline-ns lh-title helvetica black-90">Why you should hate ads even more (and what to do about it)</h1>
+              </header>
+              <section class="w-80 lf">
+                <p class="f2 measure lh-copy georgia black-80">We all hate ads: they’re either completely irrelevant or stalker-level creepy, they often take up more space than the actual content…</p>
+
+                <p class="f4 measure lh-copy georgia black-80">It’s no wonder lots of people are using ad blockers to be able to get around the web without going blind or insane. But as soon as you turn on your ad blocker, the websites will start begging you to turn it off because you’re the only thing keeping them from closing their (very expensive) doors.</p>
+
+                <p class="f4 measure lh-copy georgia black-80">So let’s say you have a big heart and decide to turn off your ad blocker out of pity (or annoyance from seeing ads for ads — welcome to late capitalism!) You’ll just ignore them and read the article. But as you scroll down, you notice everything is slowing down. Your mouse is not responding. It doesn’t matter if you’re on your gaming rig or the newest Macbook Pro, it won’t make a difference.</p>
+
+                <p class="f4 measure lh-copy georgia black-80">What’s happening is this: the website is using iframes to show the ads. Iframes are like tiny web pages inside your web page — and the entire ecosystem the webpage brings along. And due to the recursive nature of those embeded iframes, if something wrong happens with that iframe, the entire web page will stop working until the problem is resolved. So you could be reading an article on a Very Very Respectable Website With Beautiful Code, but if they’re serving you an ad from Dumpster-fire Website With Garbage Code (and that happens more often than you think), you’re in trouble.</p>
+
+                <p class="f4 measure lh-copy georgia black-80">As you’ve probably noticed by now, this is exactly what’s going on on this page.</p>
+              </section>
+              <aside>
+        </aside>
+            </article>
+        </main>
+        <script type="text/javascript">
+  window.addEventListener('load', function (event) {
+    document.querySelector('#ad').style.bottom = 0;
+  });
+</script>
+
+  </body>

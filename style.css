@@ -1,0 +1,21 @@
+ .ad {
+    display:block;
+    margin: 0 auto;
+    border: 1px solid #444;
+    bottom: -20px;
+    position: fixed;
+    transition: bottom 2000ms ease-out;
+    height: 384px;
+    width: 1002px;
+    z-index: 777;
+  }
+
+.wrapper {
+    display: block;
+    text-align: center;
+}
+.hero {
+    background: url('evil_ad_hero@1x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
