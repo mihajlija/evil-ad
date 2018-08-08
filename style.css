@@ -11,11 +11,15 @@
   }
 
 .wrapper {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .hero {
     background: url('evil_ad_hero@1x.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+section {
+    margin-bottom: 400px;
 }
